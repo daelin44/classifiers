@@ -1,0 +1,16 @@
+использованные дейтасеты: 
+https://archive.ics.uci.edu/ml/datasets/Lung+Cancer (бинарная классификация)
+https://archive.ics.uci.edu/ml/datasets/Breast+Cancer+Wisconsin+%28Diagnostic%29 (бинарная классификация)
+https://archive.ics.uci.edu/ml/datasets/Wine
+https://archive.ics.uci.edu/ml/datasets/Iris
+использованные методы классификации:
+SGD classifier
+Random Forest classifier
+Multi-layer Perceptron
+Сравнение эффективности методов классификации:
+SGD classifier : Средняя точность 0,7075
+Random Forest classifier : Средняя точность 0,8475
+Multi-layer Perceptron : Средняя точность 0,6175
+Классификатор Random Forest оказался сравнительно точнее других методов почти во всех дейтасетах
+Perceptron показал неплохую относительную точность на двух из четырех дейтасетов, но с остальными не справился (на дейтасете breast cancer показал recall score 0, не отметив ни одного позитивного значения, на дейтасете wine показал среднюю точность 0.38)
+SGD показал среднюю точность относительно двух других классификаторов
